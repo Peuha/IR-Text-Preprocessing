@@ -20,7 +20,7 @@
 نیازمندی: Python 3 (بدون هیچ کتابخانه‌ی خارجی)
 
 ```bash
-python3 Firstname_Lastname.py
+python3 RJ_IR.py
 ```
 
 این دستور سه متن آزمایشی را پردازش می‌کند، Precision و Recall هر کدام را چاپ می‌کند و خروجی را در `outputs.json` ذخیره می‌کند.
@@ -28,14 +28,14 @@ python3 Firstname_Lastname.py
 دریافت متن از بیرون (مرحله‌ی ۱ سند): از فایل یا از خط فرمان
 
 ```bash
-python3 Firstname_Lastname.py --file input.txt
-python3 Firstname_Lastname.py --text "Friends, Romans, countrymen"
+python3 RJ_IR.py --file input.txt
+python3 RJ_IR.py --text "Friends, Romans, countrymen"
 ```
 
 نسخه‌ی گرافیکی (یک صفحه‌ی محلی در مرورگر که در آن متن را تایپ می‌کنی):
 
 ```bash
-python3 Firstname_Lastname.py --gui
+python3 RJ_IR.py --gui
 ```
 
 بدون هیچ آرگومانی، سه متن آزمایشی سند (که داخل کد قرار دارند) پردازش و ارزیابی می‌شوند.
@@ -72,5 +72,5 @@ python3 Firstname_Lastname.py --gui
 - **دو تست مرزی با خروجی طلایی دستی** (`edge1`, `edge2`): مخفف همراه با پسوند مالکیت (`C.E.O.'s`)، تاریخ خط‌فاصله‌دار، `e-mail`، حذف دوحرف‌یکسان (`running → run`)، و حالت‌هایی که ریشه‌یاب عمداً تغییر نمی‌دهد (`runners → runner`، `bones → bone`).
 
 ```bash
-python3 Firstname_Lastname.py --trace
+python3 RJ_IR.py --trace
 ```
