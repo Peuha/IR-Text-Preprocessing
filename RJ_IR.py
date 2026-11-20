@@ -1,4 +1,6 @@
+
 """
+Class haro 2ta2ta miomadam pass sange tamom gozashtam ostad :)
 Text preprocessing system for Information Retrieval
 Pipeline: input -> tokenization -> normalization -> stop-word removal -> stemming
 Evaluation: Precision / Recall of output terms vs. a manually built gold standard.
